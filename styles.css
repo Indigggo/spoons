@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Set background color to white */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#draggable-spoon {
+    width: 100px; /* Adjust size of the spoon image */
+    position: absolute;
+    top: 50px; /* Initial position */
+    left: 50px; /* Initial position */
+    cursor: grab;
+}
